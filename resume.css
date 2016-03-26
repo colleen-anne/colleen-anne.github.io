@@ -3,31 +3,14 @@
 	background-image: url("http://www.quickguards.com/images/upload/materials/White%20Paisley.jpg") ;
 }
 
-#about-me{
-	text-align: center;
-	padding-left:250px;
-	padding-right:250px;
-	padding-top:20px;
-	padding-bottom: 20px;
-}
-
 #profile {
-	/* background-image: */
+	/* profile pic: */
 	height: 250px;
 	width:  200px;
 	border-radius:150%;
 }
 
-#my-experience {
-	text-align: center;
-	background-color: #F1E8CA;
-	padding-bottom: 20px;
-}
-
-#learn-more{
-	background-color: #F1E8CA;
-}
-
 h1, h2, h3 {
 	color:#B8005C;
+	text-shadow: black 0.01em 0.01em 0.02em
 }
