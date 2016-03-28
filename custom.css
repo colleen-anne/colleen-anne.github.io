@@ -24,6 +24,10 @@
 	padding-bottom: 20px;
 }
 
+#my-experience h2 {
+	text-shadow: white 0.01em 0.01em 0.02em;
+}
+
 #learn-more{
 	background-color: #999999;
 }
