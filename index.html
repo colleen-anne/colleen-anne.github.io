@@ -29,11 +29,18 @@
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">Home</a>
-          <a class="navbar-brand" href="resume.html">Resume</a>
-        </div>
+      <div id="top_nav">
+        <ul>
+          <h4><li><a href="#">Home</a></li></h4>
+          <h4><li><a href="resume.html">Resume</a>
+            <ul>
+              <li><a href="technical_skills.html">Technical Skills</a></li>
+              <li><a href="work_experience.html">Work Experience</a></li>
+              <li><a href="academic_experience.html">Academic Experience</a></li>
+              <li><a href="volunteer_experience.html">Volunteer Experience</a></li>
+            </ul></li></h4>
+          <h4><li><a href="about_me.html">About Me</a></li></h4>
+        </ul>
       </div>
     </nav>
 
@@ -44,10 +51,20 @@
         <img id = "profile" src="https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpl1/v/t1.0-9/12717822_10153426480479677_6727375837458885775_n.jpg?oh=25f6b3df65c4b7676118d46027bcd2ce&oe=574C0EB8" > 
         <!-- Note: If I want to change my pfp, put a different image in image file, and then call it as follows: "dist/img/name-of-picture.jpg" -->
         <h1>Colleen Kennedy</h1>
-        <h2>Welcome to my personal website!</h2>
+
+        <img id = "bar" src="light_grey.png" style="width:700px;height:2px;"> 
+
         <div id = "describe">
-          <p>I am a third year Cognitive Systems Major at UBC, in the Computational Intelligence and Design stream. I am currently looking for a <b>Co-op position</b> in the field of Computer Science. </p>
+          <p>Third year Cognitive Systems Major: Computational Intelligence and Design stream </p>
+
+          <img id = "bar" src="light_grey.png" style="width:500px;height:2px;"> 
+
+          <p>Junior Software Developer</p>
         </div>
+
+        <img id = "bar" src="light_grey.png" style="width:700px;height:2px;"> 
+
+        <h2>Welcome to my personal website</h2>
    <!--     <div class ="dropdown">
           <button onclick="myFunction()"
           class="dropbtn">Resume</button>
@@ -61,43 +78,43 @@
      <p><a class="btn btn-default btn-lg" href="resume.html" role="button">My Resume &raquo;</a></p> 
       </div>
     </div>
-
-    <!-- About Me  -->
-  	<div id ="about-me">
-  		<h2>About Me</h2>
-  			<p> I am passionate about coding, Neuroscience, outdoor activities, and anything to do with teamwork! I love meeting new people and pushing myself to learn new skills. Whether it is school work, sporting events, or social functions, I am always ready to give it my all and have a great time in the process. </p>
-  	</div>
 	
     <!-- A multiple column section to break down various experience -->
   	<div id = "my-experience" >
   	    <div class="container" id = "my-experience-row">
   	      <!-- Row of columns here -->
   	      <div class="row">
-          <h1 id="my-experience-title">My Experience</h1>
           <hr>
   	        <div class="col-md-4">
             <span class="fa-stack fa-4x">
                 <i style="color:#2690a0" class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
             </span>
-  	          <h2>Technical Skills</h2>
-  	          <p>I have experience coding in Java, C++, Haskell, Prolog, Scheme, HTML and CSS. I am a big fan of functional programming, which in Computer Science language means, "my friends make fun of me". I am familiar with the use of GitHub and Trello for completing projects, as well as making use of applications such as Logisim and IQR. </p>
+  	          <h2><li><a href="technical_skills.html">Technical Skills</a></li></h2>
+  	          <p>
+              <!-- Put into bullet points, like on resume -->
+
+              I have experience in backend web development, coding in Java and making use of XML, HTTP/JSON, and SQL. I am a big fan of functional programming, which in Computer Science language means, "my friends make fun of me". I am familiar with the use of GitHub and Trello for completing projects. . </p>
   	        </div>
   	        <div class="col-md-4">
             <span class="fa-stack fa-4x">
                 <i style="color:#2690a0" class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
             </span>
-  	          <h2>Work Experience</h2>
-  	          <p>I am currently a Computer Science Teaching Assistant at UBC. I assist beginner students with simple wiring projects, deterministic finite state automatons, algorithm development and logical proofs. I am simultaneously a barista at a cafe on West 4th, and have been working in customer service for 7 years.  </p>
+  	          <h2><li><a href="work_experience.html">Work Experience</a></li></h2>
+  	          <p>
+              <!-- Put into bullet points, like on resume -->
+              I am currently working as a Co-op Software Developer at FuseMail, where the results of my programming are experienced by users internationally. Prior to software development, I worked as a Computer Science Teaching Assistant and Lab Planner at UBC and a barista in Kitsilano.  </p>
   	       </div>
   	        <div class="col-md-4">
             <span class="fa-stack fa-4x">
                 <i style="color:#2690a0" class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-comments fa-stack-1x fa-inverse"></i>
             </span>
-  	          <h2>Volunteerism/Extracurriculars</h2>
-  	          <p> As an executive member of the Cognitive Systems Society at UBC, I am very active in the academic community. Whether it is organizing events for Cognitive Systems students or keeping detailed minutes at exec meetings, I like to keep everyone in the loop. Additionally, I volunteer as a research Co-Pilot at the Visual Cognition Lab, running and helping out with experiments related to implicit cognition. I am also volunteering at TechTrek, a workshop in which high-school aged girls are given the opportunity to learn programming. </p>
+  	          <h2><li><a href="volunteer_experience.html">Volunteerism/Extracurriculars</a></li></h2>
+  	          <p> 
+              <!-- Put into bullet points, like on resume -->
+              While at UBC, I am an active member of the academic community as an executive member of the Cognitive Systems Society. I have a passion for teaching, and have brought this into volunteerism through tutoring and </p>
   	        </div>
   	      </div>
   	    </div> <!-- /container -->
