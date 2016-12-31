@@ -100,10 +100,6 @@ h1, h2, h3 {
 	border: double;
 }
 
-#about i{
-	border: double;
-}
-
 #about p{
 	display: block;
 	padding:30px;
