@@ -59,6 +59,7 @@
 }
 
 h1, h2, h3 {
+	background-image:url(light_grey_paisley.png);
 	display:block;
 	text-align: center;
 	padding:20px;
@@ -70,5 +71,41 @@ h1, h2, h3 {
 #text ul li{
 	list-style-type: square;
 	padding-bottom: 10px;
+	color:#4d0f00;
+}
+
+#technical {
+	display: block;
+	padding:60px;
+	color:#d9d9d9;
+}
+
+#technical table{
+	border: 2px double #d9d9d9;
+}
+
+#technical table th{
+	text-align: center;
+	padding: 15px;
+}
+
+#technical table td{
+	text-align: top;
+	padding-right: 12px;
+}
+
+#about{
+	padding: 10px;
+	text-align: center;
+	border: double;
+}
+
+#about i{
+	border: double;
+}
+
+#about p{
+	display: block;
+	padding:30px;
 	color:#4d0f00;
 }
