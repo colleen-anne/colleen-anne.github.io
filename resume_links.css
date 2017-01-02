@@ -76,6 +76,7 @@ h1, h2, h3 {
 
 #technical {
 	display: block;
+	text-align: center;
 	padding:60px;
 	color:#d9d9d9;
 }
