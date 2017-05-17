@@ -1,7 +1,7 @@
 /*top bar*/
 #top_nav{
 	display: block;
-	background-image:url(light_grey.png);
+	background-image:url(images/light_grey.png);
 	border-bottom: double;
 	border-bottom-width: 16px;
 	position: relative;
@@ -60,7 +60,7 @@
 
 #welcome-banner {
 	text-align: center;
-	background-image: url(pretty_paisley.png);
+	background-image: url(images/pretty_paisley.png);
 }
 
 #welcome-banner h1{
@@ -87,7 +87,7 @@
 }
 
 #my-experience{
-	background-image: url(light_grey.png);
+	background-image: url(images/light_grey.png);
 	list-style-type: none;
 }
 

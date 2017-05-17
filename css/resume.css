@@ -1,7 +1,14 @@
+#welcome-banner {
+	text-align: center;
+	color: #4d0f00;
+	display: block;
+	background-image:url(images/light_grey_paisley.png);
+}
+
 /*top bar*/
 #top_nav{
 	display: block;
-	background-image:url(light_grey.png);
+	background-image:url(images/light_grey.png);
 	border-bottom: double;
 	border-bottom-width: 16px;
 	position: relative;
@@ -59,50 +66,7 @@
 }
 
 h1, h2, h3 {
-	background-image:url(light_grey_paisley.png);
-	display:block;
-	text-align: center;
-	padding:20px;
 	color:#991f00;
 	text-shadow: black 0.01em 0.01em 0.02em
 }
 
-
-#text ul li{
-	list-style-type: square;
-	padding-bottom: 10px;
-	color:#4d0f00;
-}
-
-#technical {
-	display: block;
-	text-align: center;
-	padding:60px;
-	color:#d9d9d9;
-}
-
-#technical table{
-	border: 2px double #d9d9d9;
-}
-
-#technical table th{
-	text-align: center;
-	padding: 15px;
-}
-
-#technical table td{
-	text-align: left;
-	padding-right: 12px;
-}
-
-#about{
-	padding: 10px;
-	text-align: center;
-	border: double;
-}
-
-#about p{
-	display: block;
-	padding:30px;
-	color:#4d0f00;
-}
