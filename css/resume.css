@@ -2,13 +2,13 @@
 	text-align: center;
 	color: #4d0f00;
 	display: block;
-	background-image:url(images/light_grey_paisley.png);
+	background-image:url(https://colleen-anne.github.io/images/light_grey_paisley.png);
 }
 
 /*top bar*/
 #top_nav{
 	display: block;
-	background-image:url(images/light_grey.png);
+	background-image:url(https://colleen-anne.github.io/images/light_grey.png);
 	border-bottom: double;
 	border-bottom-width: 16px;
 	position: relative;
